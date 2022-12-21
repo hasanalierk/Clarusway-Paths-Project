@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  background: -webkit-repeating-radial-gradient(red, yellow 15%, red 15%);
+}
+.clarusway-paths {
+  font-size: 80px;
+  font-weight: 700px;
+  text-align: center;
+  color: fuchsia;
+  font-family: "Rubik Vinyl", cursive;
+}
+.section {
+  /* border: 2px solid red; */
+  width: 1350px;
+  height: 250px;
+  margin: 20px auto;
+  background-color: #7fff00;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px blue;
+}
+.img {
+  height: 250px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.img:hover {
+  transform: scale(-1);
+}
+.h3 {
+  font-size: 30px;
+  font-weight: 700px;
+  font-family: "Rubik Vinyl", cursive;
+  color: red;
+}
+.par {
+  font-size: 25px;
+  font-weight: 900px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: rgb(11, 7, 245);
+}
+.button {
+  float: right;
+  font-size: 20px;
+  background-color: black;
+  width: 140px;
+  height: 35px;
+  border-radius: 10px;
+  margin: 20px 20px;
+}
+.button:hover {
+  transform: scale(2);
+}
+.button a {
+  color: red;
+  text-decoration: none;
+}
